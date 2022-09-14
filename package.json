@@ -1,0 +1,23 @@
+{
+  "name": "agregando-estilos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franco-929/Agregando-Estilos-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franco-929/Agregando-Estilos-/issues"
+  },
+  "homepage": "https://github.com/Franco-929/Agregando-Estilos-#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

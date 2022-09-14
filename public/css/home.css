@@ -1,0 +1,115 @@
+/* Google Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --color-amarillo : #EAC926;
+    --color-Azul: #03264C;
+    --color-Celeste: #1259c3;
+    --color-GrisOscuro: #666;
+    --color-GrisClaro: #ebebeb;
+    --color-Verde: #39b54a;
+    
+    /* Fuentes */
+    --font-roboto: 'Roboyo, Sans-Serif';
+    /* Tamaños de fuentes */
+    --paragraph : 12px;
+    --title : 24px;
+    --prices : 18 px;
+    --discounts-descriptions : 16px;
+}
+/*+++++++++++++++++++*/
+/* Estilos Generales */
+/*+++++++++++++++++++*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+body{
+    font-family: var(--font-roboto);
+}
+li{
+    list-style: none;
+}
+/*+++++++++++++++++++++++*/
+/* Fin Estilos Generales */
+/*+++++++++++++++++++++++*/
+/*+++++++++++++++++++*/
+/* Inicio Header */
+/*+++++++++++++++++++*/
+header{
+    background-color: var(--color-amarillo);
+    font-size: var(--paragraph);
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+ 
+header .burger-menu {
+    background-color: var(--color-Celeste);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 15px;
+    padding: 7px;
+    font-size: 17 px;
+    margin: 10px auto 0 auto;
+}
+
+header img#logo {
+    width: 130px;
+    margin-left: 25px;    
+}
+
+header .busqueda {
+    margin-left: 25px;    
+}
+
+header p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header nav .menu-top{
+    margin-bottom: 18px;    
+}
+/*++++++++++++*/
+/* Fin Header */
+/*++++++++++++*/
+/*+++++++++++++++*/
+/* Inicio Footer */
+/*+++++++++++++++*/
+footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+footer article{
+    margin-bottom: 25px;
+}
+footer article p {
+    font-size: var(--paragraph);
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer article h4 {
+    font-size: 14px;
+}
+
+footer article i {
+    color: var(--color-Celeste);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+footer p#copyright {
+    font-size: var(--paragraph);
+    color: var(--color-GrisOscuro);
+    text-align: left;
+    padding-left: 10px;
+}
